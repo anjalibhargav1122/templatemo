@@ -1,0 +1,47 @@
+.bo {
+    color: #399 !important;
+    border: 1px solid !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.bo:hover {
+    color: red !important;
+    border: 1px solid !important;
+}
+
+.tx {
+    color: #399 !important;
+}
+
+.pw {
+    width: 70%;
+}
+
+.lkcr {
+    color: #399;
+}
+
+.lkcr:hover {
+    color: red !important;
+}
+
+.undr:hover {
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
+@media (max-width: 780px) {
+
+    .pw {
+        width: 100%;
+    }
+
+    .bo {
+        padding-left: 0.3rem !important;
+        padding-right: 0.3rem !important;
+        padding-top: 0.4rem !important;
+        padding-bottom: 0.4rem !important;
+    }
+
+}

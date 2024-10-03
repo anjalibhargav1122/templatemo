@@ -1,0 +1,60 @@
+.udr:hover {
+    text-decoration: underline yellow !important;
+    color: yellow;
+}
+
+.btlk {
+    box-shadow: -1px -1px 1px #999;
+    background: linear-gradient(#626466, #303132);
+}
+
+.btlk:hover {
+    background: linear-gradient(#303132, #747a7d) !important;
+    color: yellow !important;
+}
+
+.undrlncard:hover {
+    text-decoration: underline rgb(220, 53, 69) !important;
+    color: rgb(220, 53, 69) !important;
+    cursor: pointer;
+}
+
+.bor {
+    border-radius: 0px 0px 40px 0px !important;
+}
+
+.wid {
+    width: 23% !important;
+    border-radius: 5px 5px 38px 0px !important;
+    background: #F2F2F2 url("../../assets//btnbg.jpg");
+}
+
+.clr:hover {
+    color: black !important;
+
+}
+
+.wid:hover {
+    background: #c9c5c589 !important;
+}
+
+.wdp {
+    width: 75%;
+}
+
+@media (max-width: 780px) {
+
+    .btlk {
+        margin-bottom: 1.2rem !important;
+    }
+
+    .wdp {
+        width: 100% !important;
+    }
+
+    .wid {
+        width: 70% !important;
+        margin-right: 7px !important;
+    }
+
+}

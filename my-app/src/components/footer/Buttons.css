@@ -1,0 +1,60 @@
+.pds {
+    padding-left: 1.5rem !important;
+    padding-right: 3rem !important;
+}
+
+.pdss {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+
+.undrln {
+    text-decoration: none;
+}
+
+.undrln:hover {
+    text-decoration: underline;
+}
+
+.fss {
+    font-size: .7rem;
+}
+
+.pds:hover {
+    transform: translateY(-30%) !important;
+}
+
+.pdss:hover {
+    transform: translateY(-30%) !important;
+}
+
+.mi {
+    margin-right: 1.5rem !important;
+}
+
+.fsb {
+    font-size: .8rem !important;
+}
+
+@media (max-width: 780px) {
+
+
+
+    .dn {
+        display: none !important;
+    }
+
+    .pds {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .pdss {
+        padding-left: 1.1rem !important;
+        padding-right: 1.1rem !important;
+    }
+
+    .mi {
+        margin-right: 0rem !important;
+    }
+}

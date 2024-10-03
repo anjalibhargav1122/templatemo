@@ -1,0 +1,25 @@
+.bgimg {
+    background-image: url("../../assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.btbg {
+    background: linear-gradient(#fff, #d8d8d8, #fff, #fff, #c6c6c6);
+}
+
+.btbg:hover {
+    background: linear-gradient(#c6c6c6, #d8d8d8, #fff, #fff, #fff) !important;
+    color: rgb(220, 53, 69) !important;
+}
+
+@media (max-width: 780px) {
+
+    .mp {
+        padding-top: 1.2rem !important;
+    }
+
+
+
+}

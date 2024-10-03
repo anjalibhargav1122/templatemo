@@ -1,0 +1,8 @@
+.undrlin:hover {
+    text-decoration: underline rgb(220, 53, 69) !important;
+    cursor: pointer;
+}
+
+.crsrpointr {
+    cursor: pointer;
+}
